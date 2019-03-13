@@ -29,7 +29,7 @@ cd script && ./run_recast_densenet100_into_resnet_cifar100.sh	# DenseNet100 -> R
 ```
 
 We provide several sample examples and those have same naming convention with above examples. So, we think that you can easily understand the experimental setting.
-We also provide "py" and "ipynb" for every sample experiment, and our temporal experimental result is included in ipynb files. Futher detail of experiment is included in those files.
+We also provide ".py" and ".ipynb" for every sample experiment, and our temporal experimental result is included in ipynb files. Futher detail of experiment is included in those files.
 
 
 ## Citation
