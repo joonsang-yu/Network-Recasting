@@ -5,6 +5,7 @@ Source code of the paper
 > AAAI-19
 > _arXiv:1809.05262_.
 
+The primary goal of the network recasting is network architecture transformation. This method can be used to transform an arbitrary teacher network type to an arbitrary student network type. The method is based on block-wise recasting; it recasts each source block in a pre-trained teacher network to a target block in a student network. For the recasting, a target block is trained such that its output activation approximates that of the source block. Such a block-by-block recasting in a sequential manner transforms the network architecture while preserving the inference accuracy. The recasting method can be applied for the various applications: solving gradient vanishing, filter reduction, inference time reduction.
 
 ## Requirements
 ```
