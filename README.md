@@ -7,6 +7,10 @@ Source code of the paper
 
 The primary goal of the network recasting is network architecture transformation. This method can be used to transform an arbitrary teacher network type to an arbitrary student network type. The method is based on block-wise recasting; it recasts each source block in a pre-trained teacher network to a target block in a student network. For the recasting, a target block is trained such that its output activation approximates that of the source block. Such a block-by-block recasting in a sequential manner transforms the network architecture while preserving the inference accuracy. The recasting method can be applied for the various applications: solving gradient vanishing, filter reduction, inference time reduction.
 
+<p align="center">
+<img src="img/recasting.gif" alt="recasting" width="50%">
+</p>
+
 ## Requirements
 ```
 Python >= 3.5.5, PyTorch == 0.3.1, torchvision == 0.2.0
