@@ -50,8 +50,8 @@ We also provide ".py" and ".ipynb" for every sample experiment, and our temporal
 ## Contact
 If you have questions or problems for this source code, please contact to this e-mail address.
 
+```
 shorm21@dal.snu.ac.kr
-
 joonsang.yu@dal.snu.ac.kr 
-
+```
 (same e-mail address)
